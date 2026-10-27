@@ -65,3 +65,70 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+/* Autumn Leaves Background */
+.sidebar {
+    position: relative;
+    background-image: url("images/autumn-leaves.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Dark transparent banner behind ODIN */
+.sidebar h1 {
+    width: 100%;
+    padding: 25px 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    margin: 0;
+}
+
+/* Photo credit */
+.photo-credit {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.photo-credit a {
+    color: white;
+}
+/* Odin logo banner */
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.logo-banner img {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+}
+
+.sidebar .logo-banner h1 {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-size: clamp(36px, 4vw, 64px);
+    color: white;
+}
+input:focus {
+    outline: 1px solid #2563eb;
+    border-color: #2563eb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+input[type="password"]:user-invalid {
+    border: 2px solid #dc2626;
+}
